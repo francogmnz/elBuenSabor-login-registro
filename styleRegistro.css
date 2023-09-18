@@ -1,0 +1,255 @@
+@font-face {
+    font-family: aclonica;
+    src: url(./resources/Aclonica/Aclonica-Regular.ttf);}
+    
+    * {
+        font-family: aclonica;
+    }
+    
+
+    body{
+    src: url(./resources/Aclonica/Aclonica-Regular.ttf); 
+    margin: 0;
+    background: url(./pantano.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+
+}
+.formulario{
+    background: #E1DFB6;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+input[type="text"],
+[type="password"] {
+font-size: 20px;
+width: 82%;
+padding: 10px;
+border: none;
+}
+.input-contenedor{
+    margin-bottom: 20px;
+    border: 1px solid #aaa ;
+
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+
+}
+.botton{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: "1a2573";
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: blue;
+
+}
+@media (min-width: 768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top:150px;
+    }
+}
+img {
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.banner {
+    height: 400px;
+    border-radius: 2%;
+}
+
+.google {
+    height: 20px;
+    width: 20px;
+    margin-left: 185px;
+    margin-top: -150px;
+}
+
+
+#header {
+    background-color: #E1DFB6;
+}
+
+#body {
+    background-color: #7A9244;
+}
+
+#main-division {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo {
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#menus div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.crear-cuenta {
+    margin-left: 260px;
+    font-size: 30px;
+}
+
+
+.button {
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 11%;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    transition: transform 0.3s ease; /* Agrega una transición de escala */
+    outline: none; /* Elimina el contorno en el estado de enfoque */
+    box-shadow: none; 
+}
+
+.button:hover {
+    background: rgba(34, 31, 31, 0.141);
+    transform: scale(1.1); /* Escala el botón al 110% en el hover */
+}
+
+.registro{
+    margin-left:800px;
+    margin-top: -400px;
+}
+
+.container {
+    display: flex; 
+    align-items: center;
+}
+input[type="text"] {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px; 
+    font-size: 13px; 
+    width: 250px;
+}
+
+input[type="email"] {
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 2px; 
+    font-size: 13px; 
+    width: 250px;
+}
+
+input[type="tel"] {
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 2px; 
+    font-size: 13px; 
+    width: 250px;
+}
+
+input[type="password"] {
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 2px; 
+    font-size: 13px; 
+    width: 250px;
+}
+.link{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+#container2{
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#footer-links{
+    width: 25%;
+    padding: 0;
+    align-items: center;
+}
+#footer-links h4{
+    font-size: 15px;
+   margin-bottom: 25px;
+   font-weight: 500;
+   border-bottom: 2px solid #8CB04E;
+   padding-bottom: 10px;
+   display: inline-block;
+}
+#footer-links ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+#footer-links ul li a:hover{
+    color: #8CB04E;
+    padding-left: 6px;
+ }
+ #footer-links p{
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+#footer-links p:hover{
+    color: #8CB04E;
+    padding-left: 6px;
+ }
+ #footer-links img:hover{
+    color: #8CB04E;
+    padding-left: 6px;
+ }
+ @media(max-width:991px){
+    #footer-row{
+        text-align: center;
+    }
+    #footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+ }
